@@ -6,18 +6,18 @@
 // raccogliere i dati dell'utente
 
 // nome
-let nomeUtente = prompt('Inserisci il tuo nome')
+let nomeUtente = prompt('Inserisci il tuo nome');
 
 // cognome
-let cognomeUtente = prompt('Inserisci il tuo cognome')
+let cognomeUtente = prompt('Inserisci il tuo cognome');
 
 
 // colore preferito
-let coloreUtente = prompt('Inserisci il tuo colore preferito')
+let coloreUtente = prompt('Inserisci il tuo colore preferito');
 
 
 // crezione password dall'unione di nome, cognome e colore preferito
-let passwordSicura = nomeUtente + cognomeUtente + coloreUtente + '23'
+let passwordSicura = nomeUtente + cognomeUtente + coloreUtente + '23';
 
 
 // stampo in console

@@ -1,0 +1,59 @@
+/* azzermaneto pareametri */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Monofonto', sans-serif;
+    color: rgb(113 247 158);
+    font-size: 80px;
+}
+
+
+.container{
+    background-color: black;
+    padding: 3em 5em;
+    height: 100vh;
+    overflow-y: hidden;
+    background-image: url("https://i.pinimg.com/originals/aa/23/55/aa235579fa80090cbe4bdbf195a88295.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.campi{
+    margin-bottom: 1em;
+    height: 150px;
+    width: 70%;
+    border: 2px solid rgb(113 247 158);
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.campi:hover{
+    background-color:  rgb(113 247 158);
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.campi:hover h4{
+    border-top: 2px solid rgb(113 247 158);
+    border-bottom: 2px solid rgb(113 247 158);
+}
+
+h4{
+    background-color: rgb(0, 0, 0, 0);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: -2px;
+    left: 40px;
+    padding: 0.2em;
+}
