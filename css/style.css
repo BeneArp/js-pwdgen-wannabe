@@ -9,7 +9,7 @@
 body{
     font-family: 'Monofonto', sans-serif;
     color: rgb(113 247 158);
-    font-size: 80px;
+    font-size: 70px;
 }
 
 
@@ -25,7 +25,7 @@ body{
 }
 
 .campi{
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     height: 150px;
     width: 70%;
     border: 2px solid rgb(113 247 158);
@@ -50,10 +50,71 @@ h4{
     background-color: rgb(0, 0, 0, 0);
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    height: 150px;
+    height: 103%;
     width: 90%;
     position: absolute;
     top: -2px;
     left: 40px;
-    padding: 0.2em;
+    padding: 0.4em;
 }
+
+
+
+/* responsive */
+@media screen and (max-width:1883px) {
+
+    body{
+        font-size: 65px;
+    }
+
+    .container{
+        padding: 4em 2em;
+    }
+
+    .campi{
+        height: 120px;
+    }
+
+}
+
+@media screen and (max-width:1626px) {
+
+    .container{
+        padding: 4.5em 2em;
+    }
+
+    .campi{
+        height: 110px;
+        margin-bottom: 1em;
+    }
+
+}
+
+@media screen and (max-width:1482px) {
+
+    .container{
+        padding: 5em 2em;
+    }
+
+    .campi{
+        height: 100px;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width:1298px) {
+
+    body{
+        font-size: 50px;
+    }
+
+    .container{
+        padding: 5.5em 2em;
+    }
+
+    .campi{
+        height: 80px;
+        margin-bottom: 1em;
+    }
+}
+
