@@ -80,7 +80,7 @@ h4{
 @media screen and (max-width:1626px) {
 
     .container{
-        padding: 4.5em 2em;
+        padding: 5em 2em;
     }
 
     .campi{
@@ -93,7 +93,7 @@ h4{
 @media screen and (max-width:1482px) {
 
     .container{
-        padding: 5em 2em;
+        padding: 5.5em 2em;
     }
 
     .campi{
@@ -109,12 +109,38 @@ h4{
     }
 
     .container{
-        padding: 5.5em 2em;
+        padding: 8em 2em;
     }
 
     .campi{
         height: 80px;
         margin-bottom: 1em;
     }
+
+    h4{
+        padding: 0.2em;
+    }
+
+}
+
+@media screen and (max-width:1056px) {
+
+    body{
+        font-size: 40px;
+    }
+
+    .container{
+        padding: 11em 2em;
+    }
+
+    .campi{
+        height: 75px;
+        margin-bottom: 1em;
+    }
+
+    h4{
+        padding: 0.2em;
+    }
+
 }
 
